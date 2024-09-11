@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 200vh;
+}
+
+.left-side{
+    width: 30vw;
+    height:100%;
+    background-color: #163853;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-continer-small{
+    display: none;
+}
+.logo-continer{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    height: 60%;
+    border-radius: 50%;
+    border:7px solid white;
+    display: block;
+}
+
+.logo1{
+    display: none;
+}
+
+
+.hover-active .logo {
+    display: none;
+}
+
+.hover-active .logo1 {
+    display: block;
+}
+    
+
+    .d-number{
+        display: block;
+    }
+    .hover-phone{
+        display: none;
+    }
+
+    .hover-active .d-number {
+        display: none;
+    }
+    
+    .hover-active .hover-phone {
+        display: block;
+    }
+  
+  
+     .demail{
+            display: block;
+     }
+        .myamil{
+            display: none;
+        }
+    
+        .hover-active .demail {
+            display: none;
+        }
+        
+        .hover-active .myamil {
+            display: block;
+        }
+
+        .Mloc{
+            display: none;
+        }
+        .dloc{
+            display: block;
+        }
+        .hover-active .dloc {
+            display: none;
+        }
+        
+        .hover-active .Mloc {
+            display: block;
+        }
+        
+
+        .mweb{
+            display: none;
+        }
+        .dweb{
+            display: block;
+        }
+
+        .hover-active .dweb {
+            display: none;
+        }
+        
+        .hover-active .mweb {
+            display: block;
+        }
+
+
+
+      
+    
+       
+     
+    
+
+
+    
+
+.contact{
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact hr{
+    width: 20vw;
+    margin-top: 5px;
+}
+
+.contact h1 ,hr{
+    color: white;
+}
+.icons{
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon-contact{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+    color: white;
+
+}
+i{
+    font-size: 23px; 
+    margin-right: 10px;
+    color: white;
+}
+
+.EDUCATION{
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+   
+}
+.EDUCATION hr{
+    width: 20vw;
+    margin-top: 5px;
+    color: white;
+}
+.education-list{
+    width: 20vw;
+    height:14vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 17px;
+    justify-content: space-evenly;
+}
+.edu1{
+    width: 20vw;
+    height:14vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+  
+
+.education-list ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    width: 70%;
+}
+.education-list ul li{
+    padding: 3px;
+}
+
+
+.education-list{
+    display: block;
+}
+
+ .edu1{
+    display: none;
+}
+
+.hover-active .education-list{
+    display: none;
+} 
+
+.hover-active .edu1 {
+    display: block;
+}
+
+
+.skills{
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+
+}
+
+.skills ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.skills ul li{
+    line-height: 40px;
+}
+
+.skills hr{
+    width: 20vw;
+    margin-top: 5px;
+    color: white;
+
+}
+
+.dskils{ display: block;}
+.mskils{display: none;}
+
+
+.hover-active .dskils {
+    display: none;
+}
+
+.hover-active .mskils {
+    display: block;
+}
+    
+
+.language{
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.language hr{
+    width: 20vw;
+    margin-top: 5px;
+}
+
+.language ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.language ul li{
+    line-height: 25px;
+}
+
+.dlang{
+    display: block;
+}
+
+.mlang{ display: none;}
+
+.hover-active .dlang {
+    display: none;
+}
+
+.hover-active .mlang {
+    display: block;
+}
+   
+
+.NameHeader{
+    height: 40vh;
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.NameHeader h1{
+    font-size: xxx-large;
+    color: #555555;
+}
+.NameHeader h1 span{
+    font-weight: normal;
+    color: #163853;
+}
+.NameHeader p{
+    font-size: 30px;
+    color: #555555;
+    }
+
+    .dname{display: block;}
+    .mname{display: none;}
+    
+    .hover-active .dname{
+        display: none;
+    }
+    
+    .hover-active .mname{
+        display: block;
+    }
+
+    .mp{display: none;}
+    .hover-active .mp{
+        display: block;
+    }
+    .hover-active .dp{
+        display: none;
+    }
+ .NameHeader hr{
+    margin-top: 10px;
+    width: 6vw;
+    height: 1vh;
+    background-color: #163853;
+
+ }   
+
+ .profile{
+    height: 30vh;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #163853;
+ }
+
+ .profile p{
+    line-height: 30px;
+    width: 90%;
+    color: #555555;
+
+
+ }
+
+
+ .dl{display: block;}
+ .ml{display: none;}
+
+ .hover-active .dl {
+    display: none;
+}
+
+.hover-active .ml {
+    display: block;
+}
+  
+
+ .right-side{
+    width: 70vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+ }
+
+ .profile hr{
+    width: 60vw;
+    margin-top: 5px;
+ }
+ .profile   h1{
+    margin-top: 10px;
+ }
+
+ .experienc{
+    height: 100vh;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #555555;
+
+
+ }
+ .experienc hr{
+    width: 60vw;
+    margin-top: 5px;
+ }
+ .experienc   h1{
+    margin-top: 10px;
+    color: #163853;
+ }
+
+ .experienc-list{
+    width: 90%;
+    height: 100%;
+    display: flex;
+ }
+
+ .timeline {
+    position: relative;
+  
+}
+
+.timeline-line {
+    position: absolute;
+    left: 25px; 
+    top: 20px;
+    bottom: 0;
+    width: 1px; 
+    background:#555555;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px; 
+    padding-left: 50px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 20px; 
+    width: 10px;
+    top: 20px;
+    height: 10px;
+    background-color: #555555;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+}
+
+.col-header h4 {
+    font-size: 1.2rem;
+}
+
+.timeline-content p {
+    font-size: 17px;
+}
+
+.header-timeline{
+    width: 93%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.col-header{
+    display: flex;
+    flex-direction: column;
+
+}
+.timeline-content ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    line-height: 30px;
+    width: 90%;
+}
+.timeline-content ul li{
+    font-size: 1.2rem;}
+
+
+
+.hd{display: block;}
+.hm{display: none;}
+
+.spd{display: block;}
+.spm{display: none;}
+.TD{display: block;}
+.TM{display: none;}
+
+
+.dcol1{display: block;}
+.mcol1{display: none;}
+
+.hover-active .hd {
+    display: none;
+}
+.hover-active .hm {
+    display: block;
+}
+
+.hover-active .spm {
+    display: block;
+}
+
+.hover-active .spd {
+    display: none;
+}
+
+
+.hover-active .TD {
+    display: none;
+}
+.hover-active .TM {
+    display: block;
+}
+.hover-active .dcol1 {
+    display: none;
+}
+
+.hover-active .mcol1 {
+    display: block;
+}
+
+
+.td1{display: block;}
+.td2{display: block;}
+.hover-active .td1 {
+    display: none;
+}
+
+.hover-active .td2 {
+    display: none;
+}
+
+
+.hover-active .timeline-line {
+    display: none;
+}
+
+.hover-active .timeline-dot {
+    display: none;
+}
+
+.refrence{
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    order: 4;
+
+}
+
+
+.refrence-Table{
+    width:99%;
+    height: 25vh;
+    display: flex;
+}
+
+.refrence1{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #555555;
+
+
+}
+
+.refrence2{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #555555;
+
+}
+
+.refrence hr{
+    width: 60vw;
+    margin-top: 5px;
+ }
+ .refrence   h1{
+    margin-top: 10px;
+    color: #163853;
+ }
+
+ .pre1{display: block;}
+ .pre2{display: none;}
+ .loc1{display: block;}
+ .loc2{display: none;}
+
+ .phone11{display: block;}
+ .phone22{display: none;}
+
+ .email1{display: block;}
+ .email2{display: none;}
+
+ .hover-active .pre1 {
+    display: none;
+}
+
+.hover-active .pre2 {
+    display: block;
+}
+.hover-active .loc1 {
+    display: none;
+}
+
+.hover-active .loc2 {
+    display: block;
+}
+.hover-active .phone11 {
+    display: none;
+}
+
+.hover-active .phone22 {
+    display: block;
+}
+.hover-active .email1 {
+    display: none;
+}
+
+.hover-active .email1 {
+    display: block;
+}
+
+.hover-active .refrence2 {
+    display: none;
+}
+.refrencesm{
+    display: none;
+}
+
+
+
+@media (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 500vh;
+
+    }
+    .left-side {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-side {
+        width: 100vw;
+    }
+
+    .logo-continer {
+            display: none;
+    }
+
+    .logo-continer-small{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        order: 0;
+    }
+   
+
+.EDUCATION{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-indent: 20px;
+    order:5;
+}
+.NameHeader{
+    order: 1;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.NameHeader h1{
+    font-size: xx-large;
+    color: #555555;
+}
+.NameHeader h1 span{
+    font-weight: normal;
+    color: #163853;
+}
+.NameHeader p{
+    font-size: 17px;
+    color: #555555;
+    }
+
+.education-list{
+   
+    width: 60vw;
+    height:14vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 17px;
+    justify-content: space-evenly;
+}
+.skills{
+    width: 100vw;
+    text-indent: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    order:6;
+}
+  
+
+.experienc{
+    height: 150vh;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #555555;
+    order:3;
+
+
+ }
+ .experienc hr{
+    width: 60vw;
+    margin-top: 5px;
+ }
+ .experienc   h1{
+    margin-top: 10px;
+    color: #163853;
+    font-size: 1.5rem;
+
+ }
+
+ .experienc-list{
+    width: 90%;
+    height: 100%;
+    display: flex;
+ }
+   .language{
+    width: 100vw;
+    margin-top: 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    order: 7;
+   }
+   .contact{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    order: 8;
+   }
+  
+   .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    color: #163853;
+    margin-bottom: 10px;
+    order:2;
+ }
+
+ .profile p{
+    line-height: 20px;
+    width: 99%;
+    color: #555555;
+
+
+ }
+ .profile   h1{
+    margin-top: 10px;
+    font-size: 1.5rem;
+ }
+ 
+ .col-header h4 {
+    font-size: 1.1rem;
+}
+
+.timeline-content p {
+    font-size: 14px;
+}
+.timeline-content ul li{
+    font-size: 1rem;}
+
+    .refrence{
+        display: none;
+    }
+     .refrencesm  h1{
+        margin-top: 10px;
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+
+     } 
+
+     .refrencesm{  
+        display: flex;
+        width: 100vw;
+        text-indent: 10px;
+        flex-direction: column;
+        order: 9;
+        color: white;
+    }
+    .refrence-Table{
+        width:  100vw;
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+    .refrence1{
+        height: 20vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    
+    
+    }
+    
+    .refrence2{
+        height: 20vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        color:white;
+    
+    }
+     
+
+}
